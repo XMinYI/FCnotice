@@ -1,0 +1,515 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	padding-bottom: 127px;
+}
+
+a{
+	text-decoration:none;
+	color: #897f7f;
+}
+
+.content{
+	width: 1004px;
+	height: 100%;
+}
+
+/*顶不*/
+.top{
+	width: 1004px;
+	height: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.top .text{
+	font-size: 50px;
+	white-space : nowrap;
+}
+
+.news{
+	position: absolute;
+	right: 0;
+	margin-right: 50px;
+}
+
+.top .news .xx{
+	width: 56px;
+	height: 57px;
+}
+
+.top .news .tz{
+	width: 49px;
+	height: 25px;
+	font-family: MicrosoftYaHei;
+	font-size: 25px;
+	white-space : nowrap;
+	color: #6e6e6e;
+}
+
+/*轮播图*/
+.lunbo{
+	width: 1004px;
+	height: 462px;
+}
+
+/*头条*/
+.headlines{
+	width: 1004px;
+	height: 90px;
+	display: flex;
+	overflow: hidden;
+	border-bottom: 2px solid #ccc;
+	box-shadow:  #666 0px 0px 10px;
+	overflow-x: scroll;
+}
+
+.headlines::-webkit-scrollbar {
+    display: none;
+}
+
+.headlines .headList{
+	height: 27px;
+	font-family: MicrosoftYaHei;
+	font-size: 27px;
+	color: #b4282d;
+	margin:30px 60px 32px 27px;
+	white-space: nowrap;
+}
+
+/*资讯*/
+
+
+/*first*/
+.first{
+	width: 955px;
+	height: 154px;
+	background-color: #f7f7f7;
+	box-shadow: 0px 3px 3px 0px 
+	rgba(44, 44, 44, 0.36);
+	margin: 37px auto;
+}
+
+.firstTop{
+	width: 955px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 22px;
+}
+
+.firstTop .left img{
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.firstTop .left{
+	font-size: 33px;
+	color: #515151;
+	margin: 0 10px;
+	display: flex;
+	align-items: center;
+}
+	
+.firstTop .right{
+	font-size: 33px;
+	color: #515151;
+	float: right;
+}
+
+.firstBottom{
+	font-size: 33px;
+	color: #515151;
+	padding:0 72px;
+}
+
+/*second*/
+.second{
+	width: 955px;
+	height: 283px;
+	background-color: #f7f7f7;
+	box-shadow: 0px 3px 3px 0px 
+		rgba(44, 44, 44, 0.36);
+	margin: 37px auto;
+}
+
+.secondTop{
+	width: 955px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 22px;
+}
+
+.secondTop .left img{
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.secondTop .left{
+	font-size: 33px;
+	color: #515151;
+	margin: 0 10px;
+	display: flex;
+	align-items: center;
+}
+	
+.secondTop .right{
+	font-size: 33px;
+	color: #515151;
+	float: right;
+}
+
+.secondBottom{
+	width: 955px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding:30px 56px;
+}
+
+.secondBottom .center{
+	width: 33.3%;
+	height: 120px;
+	background-color: #b22329;
+	border-radius: 6px;
+	padding: 20px;
+	margin-right: 10px;
+}
+
+.secondBottom .scCenter{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-direction: row;
+	margin: 0 50px;
+	width: 729px;
+	overflow: hidden;
+	overflow-x: scroll;
+}
+
+.secondBottom .scCenter::-webkit-scrollbar{
+	display: none;
+}
+
+.secondBottom .center p:nth-child(1){
+	font-family: MicrosoftYaHei;
+	font-size: 21px;
+	color: #ffffff;
+}
+
+.secondBottom .center p:nth-child(2){
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 33px;
+	color: #ffffff;
+	margin: 20px 0;
+}
+
+/*通知公告*/
+.thirdTime{
+	font-family: MicrosoftYaHei;
+	font-size: 17px;
+	color: #737070;
+	text-align: center;
+	margin-top: 50px;
+	
+}
+
+.third{
+	width: 954px;
+	height: auto;
+	background-color: #f7f7f7;
+	border-radius: 6px;
+	rgba(44, 44, 44, 0.36);
+	margin: 0 auto;
+	box-shadow: -2px 5px 5px 0px rgba(44, 44, 44, 0.38);
+}
+
+.thirdWeb{
+	-webkit-filter: grayscale(100%);
+}
+
+.thirdTop{
+	width: 955px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 22px;
+	
+}
+
+.thirdTop .left{
+	font-size: 42px;
+	font-weight: 900;
+	margin: 0 10px;
+	display: flex;
+	align-items: center;
+}
+	
+.thirdTop .right{
+	font-size: 33px;
+	color: #515151;
+	float: right;
+}
+
+.thirdTop .right img{
+	width: 63px;
+	height: 63px;
+	padding-right:0 20px;
+}
+
+.thirdCenter{
+	font-size: 33px;
+	font-weight: 500;
+	padding:0 0 20px 34px;
+}
+
+.inColor{
+	color: #b22329;
+}
+
+.thirdBottom{
+	width: 955px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 22px;
+	border-top: 4px solid #ccc;
+}
+
+.thirdBottom .left img{
+	width: 22px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.thirdBottom .left{
+	font-family: MicrosoftYaHei;
+	font-size: 29px;
+	color: #737070;
+	margin: 0 10px;
+	display: flex;
+	align-items: center;
+}
+	
+.thirdBottom .right{
+	font-size: 33px;
+	color: #515151;
+	float: right;
+}
+
+/*底部*/
+.bottom{
+	width: 1004px;
+	height: 121px;
+	background-color: #f7f7f7;
+	box-shadow: 0 0 21px 0 rgba(44, 44, 44, 0.38);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.nav{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+}
+
+.nav .images:nth-child(1){
+	width: 42px;
+	height: 48px;
+}
+
+.nav .images:nth-child(2){
+	width: 43px;
+	height: 40px;
+}
+
+.nav .images:nth-child(3){
+	width: 45px;
+	height: 43px;
+}
+
+.nav .images:nth-child(4){
+	width: 42px;
+	height: 42px;
+}
+
+.nav .zi{
+	font-size: 29px;
+	white-space: nowrap;
+}
+
+.nav .active{
+	color: #b22329;
+}
+
+/*工资列表*/
+.thirdNews{
+	position: absolute;
+	left: 32px;
+	top: 48px;
+}
+
+.top .thirdNews .tz{
+	font-size: 34px;
+	white-space : nowrap;
+	font-weight: 600;
+}
+
+.search_input {
+	line-height: 82px;
+	font-size: 33px;
+    display: inline;
+    width: 954px;
+	height: 82px;
+	padding: 0 70px;
+	background: url(../img/sy_second_3.png) left 20px center  no-repeat,
+				url(../img/sy_second_2.png) right 42px center  no-repeat;
+	background-color: #e5e5e5;			
+	border-radius: 41px;
+  	margin: 22px;
+  	border-style:none;
+}
+
+.head{
+	background: #fafafa;
+}
+
+/*工资详情页*/
+.bigBox{
+	width: 897px;
+	height: 100%;
+	background: #fafafa;
+	margin: 40px auto;
+	border-radius: 30px;
+	box-shadow: 1px 4px 7px 0px rgba(44, 44, 44, 0.38)
+}
+
+.lineBox{
+	height: 90px;
+	font-size: 33px;
+	line-height: 90px;
+	font-weight: 500;
+	white-space: nowrap;
+	border-bottom: 2px solid #ccc;
+	display: flex;
+}
+
+.bigBox .lineLift,
+.bigBox .lineRight{
+	display: flex;
+	justify-content: center;
+}
+
+.bigBox .lineLift{
+	flex: 1;
+	border-right: 2px solid #ccc;
+}
+
+.bigBox .lineRight{
+	flex: 2;
+}
+
+/*通知公告详情*/
+.td{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	color: #444444;
+	padding: 0 40px;
+	
+}
+
+.tdFirst{
+	font-size: 50px;
+	margin: 10px auto; 
+}
+
+.tdSecond{
+	font-size: 25px;
+	margin: 10px auto; 
+}
+
+.tdThrid{
+	font-size: 42px;
+	margin-bottom: 30px;
+}
+
+.tdFourth{
+	width: 820px;
+	height: 461px;
+}
+
+.tdFifth{
+	width: 800px;
+	font-size: 46px;
+	color: #b22329;
+	margin-top: 60px;
+}
+
+.tdRight{
+	float: right;
+}
+
+.tdSixth{
+	font-size: 33px;
+}
+
+/*安全教育详情*/
+.bg{
+	width: 1004px;
+	height: 1536px;
+	background: url(../img/sy_First_1.png);
+	background-position: -277px -494px;
+	position: relative;
+}
+
+.bg .user input,
+.bg .password input{
+	width: 500px;
+	height: 80px;
+	background: #10447d;
+	border-radius: 20px;
+	position: fixed;
+	left: 243px;
+	border-style: none;
+	font-size: 40px;
+	text-align: center;
+	border: 1px solid #1562b6;
+}
+
+.bg .user input{
+	bottom: 560px;
+}
+
+.bg .password input{
+	bottom: 447px;
+}
+
+.bg .button button{
+	width: 236px;
+    height: 90px;
+    background: #ffd151;
+    border-radius: 15px 15px 40px 15px;
+    position: fixed;
+    left: 375px;
+    border-style: none;
+    font-size: 40px;
+    text-align: center;
+    border: 3px solid #474742;
+    bottom: 320px;
+}

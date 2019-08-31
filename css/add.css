@@ -1,0 +1,219 @@
+/*个人履历*/
+.gzTop{
+	width: 1004px;
+	height: 127px;
+	font-family: MicrosoftYaHei;
+	font-size: 50px;
+	color: #393939;
+	background-color: #fafafa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gzBottom{
+	margin-bottom: 40px;
+}
+
+.fontColor{
+	color: #b22329;
+}
+
+.centerColor{
+	color: #737373;
+}
+
+/*用工评价*/
+.ygNav{
+	width: 762px;
+	font-size: 38px;
+	display: flex;
+	justify-content: space-around;
+	margin: 20px auto;
+}
+
+.ygNav .ygLine:after{
+    content: "";
+    width: 154px;
+    display: block;
+    margin: 10px auto;
+    border-bottom: 10px solid #b22329;
+    
+}
+
+.menu{
+	width: 167px;
+	height: 167px;
+	background-color: #b22329;
+	border-radius: 167px;
+	position: fixed;
+	bottom: 200px;
+    left: 408px;
+    box-shadow: 0px 5px 22px #393939;
+}
+
+.menu .menuX{
+    height: 89px;
+    width: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+.menu .menuY{
+	height: 10px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin: -90px auto;
+}
+
+/*用工评价second*/
+.thirdTop .right{
+	text-align: center;
+	color: #b22329;
+	font-weight: 900;
+	display: flex;
+	align-items: center;
+	
+}
+
+.scMenu{
+	width: 381px;
+	height: 86px;
+	background-color: #b22329;
+	border-radius: 43px;
+	position: relative;
+    top: 220px;
+    left: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 22px #393939;
+}
+
+.scMenuLeft{
+	width: 49px;
+	height: 49px;
+	border:4px solid #FFFFFF;
+	border-radius: 49px;
+	margin: 0 28px 0 0;
+}
+
+.scMenuRight{
+	font-size: 42px;
+	color: #ffffff;
+}
+
+.scMenuLeft .menuX{
+    height: 35px;
+    width: 6px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px auto;
+}
+
+.scMenuLeft .menuY{
+    height: 6px;
+    width: 35px;
+    background-color: white;
+    border-radius: 10px;
+    margin: -23px auto;
+}
+
+
+/*用工评价thrid*/
+.introduce{
+	width: 797px;
+	height: 104px;
+	font-size: 38px;
+	color: #5d5d5d;
+	margin: 50px auto;
+	text-indent:2em;
+	line-height: 78px;
+}
+
+
+/*我的*/
+.wdHead{
+	width: 1004px;
+	height: 446px;
+	color: #393939;
+	background-color: #fafafa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+
+.wdProtrait{
+	width: 206px;
+	height: 206px;
+	background: url(../img/ygpj_right_02.png) no-repeat;
+	background-size: 100%;
+	border-radius: 206px;
+}
+
+.wdGroup{
+	display: flex;
+	margin: 10px;
+	font-size: 42px;
+	margin: 20px 0;
+	color: #565656;
+}
+
+.wdGender{
+	margin-left: 40px;
+}
+
+.wdContent{
+	width: 1004px;
+	height: 100%;
+}
+
+.wdContentList{
+	width: 100%;
+	height: 100px;
+	font-family: MicrosoftYaHei;
+	font-size: 38px;
+	white-space: nowrap;
+	color: #565656;
+	background-color: #fafafa;
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-overflow:ellipsis;
+	padding: 0 50px;
+}
+
+.wdLeft{
+	height: 100px;
+	width: 45%;
+	display: flex;
+	align-items: center;
+	
+}
+
+.wdRight{
+	height: 100px;
+	display: flex;
+	align-items: center;
+	float: right;
+}
+
+.wdRight p{
+	width: 500px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+.wdCenter{
+	margin: 0 auto;
+}
+
+.wdTop{
+	margin-top: 140px;
+}
